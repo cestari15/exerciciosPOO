@@ -19,8 +19,8 @@ class Agenda {
         }
     }
     deletarEventos(evento) {
-        this.eventos = this.eventos.filter((item) => item.nome !== evento.nome);
-        return "evento deletado";
+        this.eventos = this.eventos.filter((item) => item.nome != evento.nome);
+        return "produto deletado";
     }
 }
 const evento1 = new Evento("Show", "15/02/2023", "20:00");

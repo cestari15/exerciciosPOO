@@ -32,8 +32,9 @@ class Agenda {
 
     deletarEventos(evento: Evento) {
          
-        this.eventos = this.eventos.filter((item) => item.nome !== evento.nome);
-        return "evento deletado"
+        this.eventos = this.eventos.filter((item) => item.nome != evento.nome);
+        
+        return "produto deletado"
          
     }
 
